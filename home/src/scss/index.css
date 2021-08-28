@@ -1,0 +1,28 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: #042f69;
+}
+
+.container-fluid {
+  background-color: #fece2f;
+  font-size: 1.3rem;
+  margin: -1rem 0 -1rem 0;
+  height: 4.5rem;
+}
+
+.container-fluid .navbar-brand {
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 2rem;
+  margin: 0.3rem 0 0 2rem;
+}
+
+.container-fluid .nav-item {
+  margin: 0.3rem 0 0 1.2rem;
+  font-size: 20px;
+}
+/*# sourceMappingURL=index.css.map */
