@@ -25,4 +25,9 @@ body {
   margin: 0.3rem 0 0 1.2rem;
   font-size: 20px;
 }
+
+.container-fluid .icons {
+  width: 250px;
+  height: 250px;
+}
 /*# sourceMappingURL=index.css.map */
