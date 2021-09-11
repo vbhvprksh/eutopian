@@ -1,9 +1,4 @@
-import { loadAnimation } from "lottie-web";
-import { defineLordIconElement } from "lord-icon-element";
-
-// register lottie and define custom element
-defineLordIconElement(loadAnimation);
-
+import '../scss/navbar.css'
 
 function Navbar(){
     return(
@@ -17,8 +12,7 @@ function Navbar(){
                     <div className="collapse navbar-collapse" id="navbarNav">
                     <ul className="navbar-nav">
                         <li className="nav-item">
-                            <lord-Icon src="https://cdn.lordicon.com/lupuorrc.json"></lord-Icon>
-                                <a className="nav-link active" aria-current="page" href="/">Home</a>
+                        <a className="nav-link active" aria-current="page" href="/">Home</a>
                         </li>
                         <li className="nav-item">
                         <a className="nav-link" href="/">About</a>
@@ -28,10 +22,14 @@ function Navbar(){
                         </li><li className="nav-item">
                         <a className="nav-link" href="/">Contact</a>
                         </li>
+                        <li className="nav-item">
+                        <a className="nav-link" href="/"></a>
+                        </li>
+                        
                     </ul>
                     </div>
                 </div>
-</nav>
+            </nav>
         </div>
         
     );
